@@ -1,0 +1,21 @@
+
+# Python program to print positive Numbers
+ in a List 
+
+  
+# list of numbers 
+
+list1 = [-10, 26, -64, -35, -20, 43] 
+
+num = 0  
+
+while(num < len(list1)): 
+
+
+    if list1[num] >= 0: 
+
+        print(list1[num], end = " ")
+
+    num += 1
+
+     
